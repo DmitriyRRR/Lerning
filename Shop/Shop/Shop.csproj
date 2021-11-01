@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DataModel\" />
+    <None Remove="DataModel\BaseModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataModel\" />
+    <Folder Include="DataModel\BaseModel\" />
+  </ItemGroup>
 </Project>
